@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color:#5D6D7E  ;
+}
+
+/*section 1 style */
+#section1{
+    position: relative;
+  
+    text-align: center;
+    color: white;
+
+}
+    
+
+
+    
+     
+ 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    margin: 5px;
+    padding: 10px;
+   
+    border: 3px solid white;
+  }
+
+
+#section2{
+    height: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    line-height: 2;
+
+}
+ #section3{
+     height: 100%;
+     background-color: white;
+     text-align: justify;
+     padding: 10%;
+     line-height: 2.5;
+ }
+
+ #section4{
+    height: 50%;
+    
+    text-align: justify;
+    padding: 10%;
+    line-height: 2.5;
+}
+
+#education-header{
+    background-image: url(education.jpg);
+    height: 20vh;
+    background-attachment: fixed;
+}
